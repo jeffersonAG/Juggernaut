@@ -1,0 +1,39 @@
+                                       PROYECT JUGERNNAUT 
+El Proyecto Juggernaut es un sistema integral diseñado para la encriptación y gestión del acceso a documentos sensibles dentro de una organización. En un entorno donde la seguridad de la información se ha vuelto crítica debido a las crecientes amenazas cibernéticas y a las normativas de protección de datos, este sistema ofrece una solución robusta y confiable. Desarrollado por TechSecure, el Proyecto Juggernaut permite a las empresas proteger sus documentos críticos, garantizando que solo los empleados autorizados puedan acceder y manipular dicha información.
+El sistema no solo se centra en la encriptación de los documentos, sino que también establece un control riguroso sobre quién puede desencriptar y acceder a los mismos. Esto se logra mediante la implementación de un sistema de autenticación sólido y un registro detallado de todas las actividades relacionadas con la encriptación y desencriptación, lo que permite a la organización tener una visión clara de las interacciones con la información sensible. Con esta capa adicional de seguridad, el Proyecto Juggernaut busca minimizar el riesgo de filtraciones de datos y garantizar la integridad de la información en todo momento.
+ Objetivos del Proyecto
+Objetivo General
+Desarrollar un sistema de encriptación y gestión de documentos que proteja la información sensible de la organización, garantizando el acceso controlado solo a los usuarios autorizados.
+Objetivos Específicos
+1.	Proteger Documentos Sensibles: Implementar un mecanismo de encriptación robusta que asegure que los documentos críticos no sean accesibles por usuarios no autorizados. Esto incluye la encriptación de archivos en formatos PDF y DOC.
+2.	Control de Acceso: Desarrollar un sistema de control de acceso que permita la autenticación de usuarios mediante credenciales y niveles de autorización. Solo aquellos usuarios que posean los permisos adecuados podrán desencriptar y acceder a los documentos.
+3.	Registro de Actividades: Mantener un registro detallado de todas las actividades de encriptación y desencriptación, incluyendo quién accedió a los documentos y cuándo. Este registro se utilizará para auditorías de seguridad y para investigar cualquier incidente de seguridad.
+4.	Interfaz de Usuario Intuitiva: Diseñar una interfaz de usuario fácil de usar que permita a los empleados gestionar documentos, encriptarlos y desencriptarlos sin necesidad de conocimientos técnicos avanzados.
+5.	Cumplimiento Normativo: Asegurar que el sistema cumpla con las normativas de protección de datos relevantes, como el RGPD, garantizando la privacidad y seguridad de la información de los usuarios.
+ Tecnologías Utilizadas
+El desarrollo del Proyecto Juggernaut se basa en una variedad de tecnologías que permiten la implementación de las funcionalidades necesarias para garantizar la seguridad y eficiencia del sistema.
+Backend
+•	Lenguaje de Programación:
+o	Python: Se utilizará el framework Flask para desarrollar el backend, ofreciendo un entorno flexible y ligero para crear la API que gestionará la encriptación y desencriptación de documentos.
+o	Java: Alternativamente, se puede utilizar Spring Boot para construir el backend, proporcionando una estructura robusta y escalable, ideal para aplicaciones empresariales.
+•	Base de Datos:
+o	MySQL: Utilizado para almacenar la información de los usuarios, registros de acceso y metadatos de documentos. MySQL proporciona un sistema de gestión de bases de datos relacional seguro y eficiente.
+o	MongoDB: Como opción NoSQL, MongoDB se puede usar para almacenar documentos en su formato original, permitiendo una mayor flexibilidad en la gestión de datos no estructurados.
+Frontend
+•	Lenguaje:
+o	JavaScript: Principal lenguaje utilizado para desarrollar la lógica del frontend.
+o	HTML y CSS: Utilizados para estructurar y diseñar la interfaz de usuario de la aplicación.
+•	Framework:
+o	React: Se utilizará React para construir una interfaz de usuario interactiva y dinámica. Este framework permite la creación de componentes reutilizables y mejora la experiencia del usuario a través de una actualización eficiente del DOM.
+Autenticación y Seguridad
+•	JWT (JSON Web Tokens): Utilizado para implementar la autenticación de usuarios de manera segura. Los JWT permiten que el servidor genere un token que se puede utilizar para validar la identidad del usuario en futuras solicitudes.
+•	OAuth2: Se implementará OAuth2 para proporcionar una autorización segura y controlar el acceso a los recursos de la aplicación. Esto permitirá a los usuarios autenticarse mediante proveedores de identidad externos, aumentando la seguridad y la conveniencia.
+Microservicios y Contenerización
+•	Docker: Se utilizará Docker para contenerizar la aplicación, facilitando el despliegue y la gestión de dependencias. Cada componente de la aplicación se ejecutará en su propio contenedor, lo que mejora la escalabilidad y la portabilidad.
+•	Kubernetes: Se empleará Kubernetes para la orquestación de contenedores, permitiendo una gestión eficiente de los recursos y la escalabilidad automática de la aplicación en entornos de producción.
+Encriptación
+•	PyCryptodome: Para Python, se utilizará la biblioteca PyCryptodome para implementar algoritmos de encriptación simétrica y asimétrica, garantizando la seguridad de los documentos encriptados.
+•	Java Cryptography Architecture (JCA): En el caso de usar Java, se utilizará JCA para implementar un marco de encriptación que cumpla con las mejores prácticas de seguridad.
+Registro y Monitoreo
+•	Logstash y Kibana: Estos se utilizarán para la gestión de logs y la visualización de datos, permitiendo a los administradores supervisar las actividades del sistema y detectar anomalías.
+•	Prometheus: Utilizado para el monitoreo de rendimiento de la aplicación, Prometheus recogerá métricas de diferentes componentes y generará alertas sobre posibles problemas de rendimiento o seguridad.

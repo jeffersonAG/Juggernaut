@@ -1,0 +1,16 @@
+lista de requerimientos para el Proyecto Juggernaut:
+
+Requerimientos Funcionales
+
+El sistema debe permitir a los usuarios encriptar documentos PDF y DOC.
+Los usuarios deben poder desencriptar documentos utilizando sus credenciales.
+El sistema debe registrar todas las operaciones de encriptación y desencriptación.
+
+Requerimientos No Funcionales
+El tiempo de respuesta para encriptar un documento no debe exceder los 5 segundos.
+El sistema debe ser capaz de manejar hasta 1000 usuarios simultáneamente.
+Todos los datos sensibles deben estar encriptados en reposo y en tránsito.
+
+Requerimientos de Usuario
+Los usuarios deben poder subir documentos a la plataforma de forma sencilla y rápida.
+La interfaz debe ser intuitiva y fácil de navegar.
